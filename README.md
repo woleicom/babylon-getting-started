@@ -1,5 +1,5 @@
 # babylon-getting-started
-Babylon.js入门教程示例代码
+Babylon.js (5.0版本) 入门教程示例代码
 - 启动：
 ```
 npm run start
