@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <title>Babylon - Getting Started</title>
+    <!--- link to the last version of babylon --->
+    <style>
+        html, body {
+            overflow: hidden;
+            width   : 100%;
+            height  : 100%;
+            margin  : 0;
+            padding : 0;
+        }
+
+        #renderCanvas {
+            width   : 100%;
+            height  : 100%;
+            touch-action: none;
+        }
+        #fpsLabel {
+            position: fixed;
+            top: 60px;
+            right: 0;
+            line-height: 32px;
+            height: 35px;
+            padding: 0;
+            padding-right: 5px;
+            width: 60px;
+            padding: 2px 8px 5px 0px;
+            z-index: 4;
+            background-color: #3f3461;
+            color: white;
+            font-size: 18px;
+            text-align: right;
+            cursor: default;
+            pointer-events: none;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="renderCanvas"></canvas>
+    <label id="fpsLabel"></label>
+</body>
+</html>
